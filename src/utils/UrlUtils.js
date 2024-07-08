@@ -1,5 +1,5 @@
-// export const hostPath =
-process.env.REACT_APP_IP_ADDRESS || "http://13.250.32.18:3000/v1";
+export const hostPath =
+  process.env.REACT_APP_IP_ADDRESS || "http://13.250.32.18:3000/v1";
 // export const hostPath = "http://localhost:5000/v1";
 
 const urls = {
