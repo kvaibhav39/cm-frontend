@@ -18,7 +18,7 @@ import { authCheck } from "./utils/AuthCheck";
 import PageNetworkError from "./common/PageNetworkError";
 
 // ==============================|| APP ||============================== //
-// minor comment changes 15
+// minor comment changes 16
 const App = () => {
   const location = useLocation();
   useEffect(() => {
