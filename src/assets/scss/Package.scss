@@ -1,0 +1,46 @@
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.text-center {
+  text-align: center;
+}
+
+// # Phone
+@media only screen and (max-width: 480px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    white-space: normal;
+  }
+  .min-width-100 {
+    min-width: 100%;
+  }
+  .width-100 {
+    width: 100%;
+  }
+  .max-width-75 {
+    max-width: 75%;
+  }
+  .align-item-center {
+    align-items: center;
+  }
+}
+
+// # Tablet
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .min-width-100 {
+    min-width: 100%;
+  }
+  .align-item-center {
+    align-items: baseline;
+  }
+  .max-width-75 {
+    max-width: 75%;
+  }
+}

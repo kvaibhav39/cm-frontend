@@ -1,0 +1,179 @@
+// paper & background
+$paper: #ffffff;
+
+// primary
+$primaryLight: #f8f8f8;
+$primary100: #eaefff;
+$primaryMain: #527afb;
+$primaryDark: #1e88e5;
+$primary200: #90caf9;
+$primary800: #1565c0;
+
+// secondary
+$secondaryLight: #f2f5ff;
+$secondaryMain: #527afb;
+$secondaryDark: #6788ff;
+$secondary200: #b39ddb;
+$secondary800: #4527a0;
+
+// success Colors
+$successLight: #b9f6ca;
+$success200: #69f0ae;
+$successMain: #00c853;
+$successDark: #00e676;
+
+// error
+$errorLighter: #fdf4f4;
+$errorLight: #ef9a9a;
+$errorMain: #f44336;
+$errorDark: #c62828;
+
+// orange
+$orangeLight: #fbe9e7;
+$orangeMain: #ffab91;
+$orangeDark: #d84315;
+
+// warning
+$warningLight: #fff8e1;
+$warningMain: #ffe57f;
+$warningDark: #ffc107;
+
+// grey
+$grey50: #fafafa;
+$grey100: #f5f5f5;
+$grey150: #f3f3f3;
+$grey200: #dddce0;
+$grey300: #e0e0e0;
+$grey400: #d6d6d6;
+$grey500: #9e9e9e;
+$grey600: #757575;
+$grey700: #616161;
+$grey900: #555262;
+
+//accordion - candidate module
+$accordionHeaderBg: #f2f5fe;
+$accordionBorder: #e0e0e0;
+
+// ==============================|| DARK THEME VARIANTS ||============================== //
+
+// paper & background
+$darkBackground: #1a223f; // level 3
+$darkPaper: #6788ff; // level 4
+
+// dark 800 & 900
+$darkLevel1: #29314f; // level 1
+$darkLevel2: #212946; // level 2
+$darkLevel3: rgba(104, 137, 255, 0.1);
+
+// primary dark
+$darkPrimaryLight: #f2f5ff;
+$darkPrimaryMain: #527afb;
+$darkPrimaryDark: #1e88e5;
+$darkPrimary200: #90caf9;
+$darkPrimary800: #1565c0;
+
+// secondary dark
+$darkSecondaryLight: #d1c4e9;
+$darkSecondaryMain: #7c4dff;
+$darkSecondaryDark: #651fff;
+$darkSecondary200: #b39ddb;
+$darkSecondary800: #6200ea;
+$moderateViolet: #673ab7;
+
+// text variants
+$darkTextTitle: #d7dcec;
+$darkTextPrimary: #5e5873; //#bdc8f0;
+$darkTextSecondary: #6e6b7b; //#8492c4;
+$darkTextTernary: #565261;
+
+// ==============================|| JAVASCRIPT ||============================== //
+
+:export {
+  // paper & background
+  paper: $paper;
+
+  // primary
+  primaryLight: $primaryLight;
+  primary100: $primary100;
+  primary200: $primary200;
+  primaryMain: $primaryMain;
+  primaryDark: $primaryDark;
+  primary800: $primary800;
+
+  // secondary
+  secondaryLight: $secondaryLight;
+  secondary200: $secondary200;
+  secondaryMain: $secondaryMain;
+  secondaryDark: $secondaryDark;
+  secondary800: $secondary800;
+
+  // success
+  successLight: $successLight;
+  success200: $success200;
+  successMain: $successMain;
+  successDark: $successDark;
+
+  // error
+  errorLighter: $errorLighter;
+  errorLight: $errorLight;
+  errorMain: $errorMain;
+  errorDark: $errorDark;
+
+  // orange
+  orangeLight: $orangeLight;
+  orangeMain: $orangeMain;
+  orangeDark: $orangeDark;
+
+  // warning
+  warningLight: $warningLight;
+  warningMain: $warningMain;
+  warningDark: $warningDark;
+
+  // grey
+  grey50: $grey50;
+  grey100: $grey100;
+  grey150: $grey150;
+  grey200: $grey200;
+  grey300: $grey300;
+  grey400: $grey400;
+  grey500: $grey500;
+  grey600: $grey600;
+  grey700: $grey700;
+  grey900: $grey900;
+
+  // paper & background
+  darkPaper: $darkPaper;
+  darkBackground: $darkBackground;
+
+  // dark 800 & 900
+  darkLevel1: $darkLevel1;
+  darkLevel2: $darkLevel2;
+  darkLevel3: $darkLevel3;
+
+  // text variants
+  darkTextTitle: $darkTextTitle;
+  darkTextPrimary: $darkTextPrimary;
+  darkTextSecondary: $darkTextSecondary;
+  darkTextTernary: $darkTextTernary;
+
+  // primary dark
+  darkPrimaryLight: $darkPrimaryLight;
+  darkPrimaryMain: $darkPrimaryMain;
+  darkPrimaryDark: $darkPrimaryDark;
+  darkPrimary200: $darkPrimary200;
+  darkPrimary800: $darkPrimary800;
+
+  // secondary dark
+  darkSecondaryLight: $darkSecondaryLight;
+  darkSecondaryMain: $darkSecondaryMain;
+  darkSecondaryDark: $darkSecondaryDark;
+  darkSecondary200: $darkSecondary200;
+  darkSecondary800: $darkSecondary800;
+
+  //accordion - candidate module
+  accordionHeaderBg: $accordionHeaderBg;
+  accordionBorder: $accordionBorder;
+
+  //others
+  moderateViolet: $moderateViolet;
+}

@@ -1,0 +1,31 @@
+export const newEducation = () => {
+  return {
+    candidatesEducationsId: "",
+    nameOfSchoolCollegeUniversity: "",
+    streetAddressLine1: "",
+    streetAddressLine2: "",
+    cityTownDistrict: "",
+    stateProvince: "",
+    zipPostalAreaCode: "",
+    countryId: "",
+    institutePhoneCountryCode: "",
+    institutePhoneNumber: "",
+    isCurrentlyStudying: true,
+    fromDate: "",
+    toDate: "",
+    titleOfQualification: "",
+    isDistanceLearning: false,
+    specilization: "",
+    qualificationTypeId: null,
+    qualificationTypeOthers: "",
+    educationTypeId: null,
+    certificateNo: "",
+    studentEnrollmentNo: "",
+    gradePercentageGpaScore: "",
+    additionalComments: "",
+    attachments: [],
+    isExpanded: true,
+    otherEducationType: "",    
+    selectedTab:true
+  };
+};

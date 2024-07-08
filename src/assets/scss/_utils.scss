@@ -1,0 +1,12 @@
+@for $i from 1 to 16 {
+	.space-x-#{$i} {
+		> *:not(:first-child) {
+			margin-left: $i * 4px !important;
+		}
+	}
+	.space-y-#{$i} {
+		> *:not(:first-child) {
+			margin-top: $i * 4px !important;
+		}
+	}
+}
