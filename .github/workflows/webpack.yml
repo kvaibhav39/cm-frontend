@@ -24,3 +24,13 @@ jobs:
         run: |
           npm install
           npm run build
+      - name: Push build to S3
+        uses: sai-sharan/aws-s3-sync-action@master
+        with:
+          access_key: ${{ secrets.DEV_ACCESS_KEY }}
+          secret_access_key: ${{ secrets.DEV_SECRET_ACCESS_KEY }}
+          region: "ap-south-1"
+          source: "build"
+          destination_bucket: ${{ secrets.DEV_DESTINATION_BUCKET }}
+          exclude: ".git/*"
+          delete: true
