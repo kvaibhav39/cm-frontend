@@ -21,6 +21,9 @@ jobs:
           node-version: ${{ matrix.node-version }}
 
       - name: Build
+        env:
+          REACT_APP_BASE_URL: ${{secrets.REACT_APP_DEV_BASE_URL}}
+          REACT_APP_IP_ADDRESS: ${{secrets.REACT_APP_DEV_IP_ADDRESS}}
         run: |
           npm install
           npm run build
